@@ -82,3 +82,22 @@
 
 
 }
+
+
+.features {
+    .container {
+        display: flex;
+        justify-content: center;
+        .row {
+            .features-box {
+            }
+        }
+    }
+}
+
+
+
+.fa-regular {
+}
+.fa-rectangle-history {
+}
