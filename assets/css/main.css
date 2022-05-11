@@ -1,1 +1,82 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  background-color: #212529;
+}
+
+.header .header-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+.header .header-contents .header-logo h4 {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.header .header-contents .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header-contents .nav-list .nav-item {
+  list-style: none;
+}
+
+.header .header-contents .nav-list .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.main {
+  padding-top: 50px;
+  padding-bottom: 90px;
+  background-color: #212529;
+}
+
+.main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .container .main-info-item h2 {
+  font-size: 48px;
+  color: #fff;
+  margin: 0px 0px 8px;
+}
+
+.main .container .main-info-item p {
+  font-size: 20px;
+  color: #ffffff80;
+  margin: 0px 0px 24px;
+}
+
+.main .container .main-info-item .main-info-buttons button:nth-child(2) {
+  margin-left: 30px;
+}
+/*# sourceMappingURL=main.css.map */
