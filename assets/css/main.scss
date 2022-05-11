@@ -85,15 +85,30 @@
 
 
 .features {
+    padding-top: 50px;
+    padding-bottom: 50px;
     .container {
         display: flex;
-        justify-content: center;
+        
+      .features-title{
+        h3{
+            font-size: 32px;
+            font-weight: bold;
+        }
+        margin-top: 25px;
+  
+      }  
+     
+        }
+       
         .row {
+            justify-content:flex-end;
             .features-box {
+               width: 400px;
             }
         }
     }
-}
+
 
 
 

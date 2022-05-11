@@ -80,12 +80,33 @@
   margin-left: 30px;
 }
 
+.features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .features .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+
+.features .container .features-title {
+  margin-top: 25px;
+}
+
+.features .container .features-title h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.features .row {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.features .row .features-box {
+  width: 400px;
 }
 /*# sourceMappingURL=main.css.map */
