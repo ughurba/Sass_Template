@@ -109,4 +109,34 @@
 .features .row .features-box {
   width: 400px;
 }
+
+.text {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #ededed;
+}
+
+.text .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text .container .text-info p {
+  font-size: 26px;
+  color: #131517;
+  margin: 0px 0px 24px;
+  text-align: center;
+}
+
+.text .container .text-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */

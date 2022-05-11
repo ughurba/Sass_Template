@@ -69,10 +69,11 @@
                 margin: 0px 0px 24px;
 
             }
+
             .main-info-buttons {
-                button:nth-child(2){
+                button:nth-child(2) {
                     margin-left: 30px;
-                    
+
                 }
 
             }
@@ -87,32 +88,54 @@
 .features {
     padding-top: 50px;
     padding-bottom: 50px;
+
     .container {
         display: flex;
-        
-      .features-title{
-        h3{
-            font-size: 32px;
-            font-weight: bold;
-        }
-        margin-top: 25px;
-  
-      }  
-     
-        }
-       
-        .row {
-            justify-content:flex-end;
-            .features-box {
-               width: 400px;
+
+        .features-title {
+            h3 {
+                font-size: 32px;
+                font-weight: bold;
             }
+
+            margin-top: 25px;
+
         }
+
     }
 
+    .row {
+        justify-content: flex-end;
 
-
-
-.fa-regular {
+        .features-box {
+            width: 400px;
+        }
+    }
 }
-.fa-rectangle-history {
+
+.text {
+padding-top: 80px;
+padding-bottom: 80px;
+    background-color: rgb(237, 237, 237);
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .text-info {
+            p {
+                font-size: 26px;
+                color: #131517;
+                margin: 0px 0px 24px;
+                text-align: center;
+            }
+
+        }
+
+        .text-img {
+            display: flex;
+
+        }
+    }
 }
