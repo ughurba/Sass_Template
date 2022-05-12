@@ -110,6 +110,28 @@
   width: 400px;
 }
 
+.features .row .features-box .box-icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+  background-color: #0d6efd;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.features .row .features-box .box-icon .icon {
+  margin-bottom: 5px;
+}
+
 .text {
   padding-top: 80px;
   padding-bottom: 80px;

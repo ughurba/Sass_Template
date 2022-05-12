@@ -109,6 +109,22 @@
 
         .features-box {
             width: 400px;
+
+            .box-icon{
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                height: 3rem;
+                width: 3rem;
+                font-size: 1.5rem;
+                background-color: #0d6efd;
+                border-radius: 6px;
+                margin-bottom: 16px;
+            .icon{
+                margin-bottom: 5px;
+            }
+            }
+
         }
     }
 }
@@ -252,13 +268,15 @@
 .footer {
 
     background-color: #212529;
+
     .container {
 
         .footer-content {
-display: flex;
-justify-content: space-between;
-padding-top: 25px;
-padding-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 25px;
+            padding-bottom: 10px;
+
             .footer-left-info {
                 color: #ffffff;
                 font-size: 15px;
@@ -267,9 +285,11 @@ padding-bottom: 10px;
 
             .footer-right-info {
                 padding-right: 10px;
+
                 .footer-list {
-                 list-style: none;
-                 display: flex;
+                    list-style: none;
+                    display: flex;
+
                     .footer-list-item {
 
 
@@ -292,9 +312,3 @@ padding-bottom: 10px;
 
 
 }
-
-
-
-
-
-
