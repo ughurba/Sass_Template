@@ -37,9 +37,7 @@
                     padding-right: 40px;
                 }
             }
-
-
-
+          
             .nav-item {
                 list-style: none;
                 
@@ -51,6 +49,10 @@
                     color: rgba(255, 255, 255, 0.55);
                 }
 
+                .nav-link:hover {
+                    color: rgba(242, 234, 234, 0.904);
+                }
+               
                 .blog-sub-item{
                     display: none;
                     padding:10px 80px 10px 20px;
@@ -60,6 +62,11 @@
                     right: 230px;
                     margin-top: 6px;
                     border-radius:5px;
+                    
+                    .blog-sub-item-link:hover{
+                        color: blueviolet;
+                    }
+
                     .blog-sub-item-link{
                         
                         

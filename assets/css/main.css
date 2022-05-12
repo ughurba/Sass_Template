@@ -59,6 +59,10 @@
   color: rgba(255, 255, 255, 0.55);
 }
 
+.header .header-contents .nav-list .nav-item .nav-link:hover {
+  color: rgba(242, 234, 234, 0.904);
+}
+
 .header .header-contents .nav-list .nav-item .blog-sub-item {
   display: none;
   padding: 10px 80px 10px 20px;
@@ -68,6 +72,10 @@
   right: 230px;
   margin-top: 6px;
   border-radius: 5px;
+}
+
+.header .header-contents .nav-list .nav-item .blog-sub-item .blog-sub-item-link:hover {
+  color: blueviolet;
 }
 
 .header .header-contents .nav-list .nav-item .blog-sub-item .blog-sub-item-link {
