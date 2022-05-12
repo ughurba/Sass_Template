@@ -36,7 +36,40 @@
                 .nav-link {
                     color: rgba(255, 255, 255, 0.55);
 
+                   
+                }
 
+                .blog-sub-item{
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #ffffff;
+                    position: absolute;
+                    left: auto;
+                    right: 230px;
+                    margin-top: 6px;
+                    border-radius:5px;
+                    .blog-sub-item-link{
+                        text-decoration: none;
+                        z-index: 1000;
+                        min-width: 10rem;
+                        padding: 0.5rem 0;
+                        margin: 0;
+                        font-size: 1rem;
+                        color: #212529;
+                        text-align: left;
+                        list-style: none;
+                        background-color: #fff;
+                        background-clip: padding-box;
+                        border: 1px solid rgba(0, 0, 0, 0.15);
+                        border-radius:5px;
+                        border-bottom: none;
+                        padding-left: 10px;
+                    }
+                    .blog-sub-item-link:nth-child(2){
+                        border-top: none;
+                        border-bottom:rgba(0, 0, 0, 0.15);
+                    }
+                        
                 }
 
             }
