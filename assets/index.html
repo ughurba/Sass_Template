@@ -34,13 +34,28 @@
                     <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Blog<i class="ms-2 fa-solid fa-angle-down"></i></a>
-                      <div class="blog-sub-item">
-                          <a href="#" class="blog-sub-item-link">Blog Home</a>
-                          <a href="#" class="blog-sub-item-link">Blog Post</a>
-                      </div>  
+                    <li data-tab="#down1" class="nav-item"><a href="#" class="nav-link">Blog<i class="ms-2 fa-solid fa-angle-down"></i></a>
+
+                      <div id="down1"  class="blog-sub-item">
+                          <div><a href="#" class="blog-sub-item-link">Blog Home</a></div>
+                        <div><a href="#" class="blog-sub-item-link">Blog Post</a></div>
+                    </div>  
+
+
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+                    <li data-tab="#down2" class="nav-item"><a href="#" class="nav-link">Portfolio<i class="ms-2 fa-solid fa-angle-down"></i></a>
+                    
+                    
+                        <div id="down2"  class="blog-sub-item">
+
+                            <div><a href="#" class="blog-sub-item-link">Portfolio Overview</a></div>
+                          <div><a href="#" class="blog-sub-item-link">Portfolio item</a></div>
+                          
+                        </div>  
+                    
+                    
+                    
+                    </li>
                 </ul>
             </div>
         </div>
@@ -236,6 +251,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
