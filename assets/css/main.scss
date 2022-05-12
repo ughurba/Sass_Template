@@ -247,3 +247,54 @@
 
     }
 }
+
+
+.footer {
+
+    background-color: #212529;
+    .container {
+
+        .footer-content {
+display: flex;
+justify-content: space-between;
+padding-top: 25px;
+padding-bottom: 10px;
+            .footer-left-info {
+                color: #ffffff;
+                font-size: 15px;
+            }
+
+
+            .footer-right-info {
+                padding-right: 10px;
+                .footer-list {
+                 list-style: none;
+                 display: flex;
+                    .footer-list-item {
+
+
+                        .footer-list-link {
+                            color: #f8f9fa;
+                            font-size: 15px;
+                        }
+
+                    }
+
+
+                }
+
+            }
+
+        }
+
+
+    }
+
+
+}
+
+
+
+
+
+
