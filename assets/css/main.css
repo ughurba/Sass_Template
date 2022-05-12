@@ -191,4 +191,46 @@
   font-size: 0.875em;
   font-weight: 700;
 }
+
+.input {
+  padding: 50px 0px 50px;
+}
+
+.input .container .content-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0d6efd;
+  border-radius: 8px;
+  padding: 25px 50px;
+}
+
+.input .container .content-input .input-info h3 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.input .container .content-input .input-info p {
+  color: #ffffff80;
+  font-size: 18px;
+}
+
+.input .container .content-input .form-input {
+  margin-top: 20px;
+}
+
+.input .container .content-input .form-input p {
+  position: relative;
+  bottom: 13px;
+  color: #ffffff80;
+  font-size: 16px;
+}
 /*# sourceMappingURL=main.css.map */
