@@ -114,8 +114,8 @@
 }
 
 .text {
-padding-top: 80px;
-padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: rgb(237, 237, 237);
 
     .container {
@@ -143,10 +143,12 @@ padding-bottom: 80px;
 .from-blog {
     padding-top: 100px;
     padding-bottom: 100px;
+
     .container {
-        p{
+        p {
             color: #6c757d
         }
+
         .row {
 
             .from-blog-item {
@@ -162,27 +164,29 @@ padding-bottom: 80px;
                 border-radius: 0.25rem;
                 box-shadow: 39px 30px 20px -19px rgba(34, 60, 80, 0.42);
                 margin-top: 40px;
-            
 
-                .from-blog-title-paragraph{
+
+                .from-blog-title-paragraph {
                     margin-top: 30px;
                     margin-left: 20px;
-                    p{
+
+                    p {
                         line-height: 1.7;
                     }
                 }
 
                 .from-blog-bottom-info {
                     display: flex;
-                    margin-top:40px ;
+                    margin-top: 40px;
                     margin-left: 20px;
+
                     .from-blog-bottom-data-name {
-                       h5{
-                        font-size: 0.875em;
-                        font-weight: 700;
-                       }
+                        h5 {
+                            font-size: 0.875em;
+                            font-weight: 700;
+                        }
                     }
-            
+
                 }
             }
 
@@ -192,3 +196,54 @@ padding-bottom: 80px;
     }
 }
 
+
+.input {
+    padding: 50px 0px 50px;
+
+    .container {
+
+
+
+
+        .content-input {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: #0d6efd;
+            border-radius: 8px;
+            padding: 25px 50px;
+
+            .input-info {
+                h3 {
+                    color: #ffffff;
+                    font-size: 30px;
+                }
+
+                p {
+                    color: #ffffff80;
+                    font-size: 18px;
+                }
+            }
+
+
+            .form-input {
+                margin-top: 20px;
+
+                p {
+                    position: relative;
+                    bottom: 13px;
+                    color: #ffffff80;
+                    font-size: 16px;
+                }
+
+
+
+            }
+
+        }
+
+
+
+    }
+}
