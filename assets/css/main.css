@@ -213,12 +213,6 @@
   padding-bottom: 50px;
 }
 
-.features .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .features .container .features-title {
   margin-top: 25px;
 }
@@ -226,16 +220,6 @@
 .features .container .features-title h3 {
   font-size: 32px;
   font-weight: bold;
-}
-
-.features .row {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.features .row .features-box {
-  width: 400px;
 }
 
 .features .row .features-box .box-icon {
