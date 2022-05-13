@@ -22,6 +22,15 @@
   padding-top: 10px;
 }
 
+.header .header-contents .menu-burger {
+  display: none;
+}
+
+.header .header-contents .menu-burger .fa-bars {
+  color: #fff;
+  font-size: 40px;
+}
+
 .header .header-contents .header-logo h4 {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
@@ -90,6 +99,15 @@
   font-weight: 500;
 }
 
+@media screen and (max-width: 992px) {
+  .header .header-contents .menu-burger {
+    display: block;
+  }
+  .header .header-contents .nav-list {
+    display: none;
+  }
+}
+
 .main {
   padding-top: 50px;
   padding-bottom: 90px;
@@ -103,6 +121,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 1320px) {
+  .main .container .info-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .main .container .main-info-item h2 {
@@ -119,6 +148,64 @@
 
 .main .container .main-info-item .main-info-buttons button:nth-child(2) {
   margin-left: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .main .container .main-info-item .main-info-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main .container .main-info-item h2 {
+    text-align: center;
+  }
+  .main .container .main-info-item p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .main .container .main-info-item h2 {
+    text-align: center;
+  }
+  .main .container .main-info-item p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .main .container .main-info-item .main-info-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .main .container .main-info-item {
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main .container .main-img {
+    padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .main .container .main-img {
+    display: none;
+  }
 }
 
 .features {
@@ -253,6 +340,7 @@
 .from-blog .container .row .from-blog-item .from-blog-bottom-info .from-blog-bottom-data-name h5 {
   font-size: 0.875em;
   font-weight: 700;
+  margin: 0;
 }
 
 .input {
