@@ -14,15 +14,15 @@
         align-items: center;
         padding-top: 10px;
 
-        .menu-burger{
+        .menu-burger {
             display: none;
 
-            .fa-bars{
+            .fa-bars {
                 color: #fff;
                 font-size: 40px;
             }
         }
-   
+
         .header-logo {
             h4 {
                 padding-top: 0.3125rem;
@@ -98,12 +98,13 @@
         }
 
         @media screen and(max-width:992px) {
-            .menu-burger{
+            .menu-burger {
                 display: block;
             }
-          .nav-list{
-              display: none;
-          }  
+
+            .nav-list {
+                display: none;
+            }
         }
 
     }
@@ -117,15 +118,17 @@
     .container {
         display: flex;
         align-items: center;
+
         @media screen and (max-width: 1320px) {
-            .info-flex{
+            .info-flex {
                 display: flex;
                 justify-content: center;
-                
+
             }
-           
-            
+
+
         }
+
         .main-info-item {
             h2 {
                 font-size: 48px;
@@ -148,65 +151,69 @@
             }
 
             @media screen and (max-width:992px) {
-                .main-info-buttons{
-                 display: flex;
-                 justify-content: center;
+                .main-info-buttons {
+                    display: flex;
+                    justify-content: center;
                 }
-                
+
             }
-          
+
 
             @media screen and (max-width:992px) {
-                h2{
+                h2 {
                     text-align: center;
-                    }
-                    p{
-                        text-align: center;
-                    }
-                
-            }
-            @media screen and (max-width:1320px) {
-                h2{
-                    text-align: center;
-                    }
-                    p{
-                        text-align: center;
-                    }
-                
-
-            }
-
-            @media screen and (max-width:1320px) {
-                .main-info-buttons{
-                 display: flex;
-                 justify-content: center;
                 }
-                
+
+                p {
+                    text-align: center;
+                }
+
+            }
+
+            @media screen and (max-width:1320px) {
+                h2 {
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                }
+
+
+            }
+
+            @media screen and (max-width:1320px) {
+                .main-info-buttons {
+                    display: flex;
+                    justify-content: center;
+                }
+
             }
 
         }
+
         @media screen and (max-width: 1400px) {
-            .main-info-item{
+            .main-info-item {
                 padding-right: 15px;
             }
-           
-            
+
+
         }
 
-     
+
 
         @media screen and (max-width:1200px) {
-            .main-img{
-                padding-top:25px ;
-                }
-            
+            .main-img {
+                padding-top: 25px;
+            }
+
         }
 
         @media screen and (max-width:1320px) {
-            .main-img{
-             display: none;
+            .main-img {
+                display: none;
             }
-            
+
         }
 
 
@@ -222,7 +229,7 @@
     padding-bottom: 50px;
 
     .container {
-        
+
 
         .features-title {
             h3 {
@@ -234,11 +241,33 @@
 
         }
 
+        @media screen and(max-width:992px) {
+
+            .parent-column {
+                display: flex;
+                flex-direction: column;
+            }
+
+        }
+
+
+
+
+
     }
 
     .row {
-        // justify-content: flex-end;
-        
+
+        @media screen and (max-width:992px) {
+            .features-boxs {
+                display: flex;
+
+
+            }
+
+        }
+
+
 
         .features-box {
             // width: 400px;
@@ -261,6 +290,8 @@
 
         }
     }
+
+
 }
 
 .text {
